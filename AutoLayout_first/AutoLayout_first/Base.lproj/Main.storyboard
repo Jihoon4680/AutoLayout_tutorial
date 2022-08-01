@@ -34,8 +34,8 @@
                                     <constraint firstAttribute="width" constant="240" id="rky-hC-8ds"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-d3-AKS" userLabel="PupleView">
-                                <rect key="frame" x="188" y="426" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-d3-AKS" userLabel="PupleView">
+                                <rect key="frame" x="110" y="429" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
@@ -43,10 +43,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ZRW-tm-nGb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="0Wy-iO-MRy"/>
+                            <constraint firstItem="iFD-d3-AKS" firstAttribute="top" secondItem="WhK-QL-oNR" secondAttribute="bottom" constant="89" id="Gpd-XI-uuk"/>
                             <constraint firstItem="ZRW-tm-nGb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="MMQ-v3-piR"/>
                             <constraint firstItem="WhK-QL-oNR" firstAttribute="leading" secondItem="ZRW-tm-nGb" secondAttribute="leading" constant="60" id="PsP-1d-vLV"/>
                             <constraint firstItem="WhK-QL-oNR" firstAttribute="top" secondItem="ZRW-tm-nGb" secondAttribute="bottom" constant="20" id="Trz-Sb-V5x"/>
-                            <constraint firstItem="iFD-d3-AKS" firstAttribute="top" secondItem="WhK-QL-oNR" secondAttribute="bottom" constant="89" id="ody-mu-C0C"/>
                             <constraint firstItem="iFD-d3-AKS" firstAttribute="width" secondItem="WhK-QL-oNR" secondAttribute="width" id="pnl-U4-AS9"/>
                             <constraint firstItem="iFD-d3-AKS" firstAttribute="leading" secondItem="WhK-QL-oNR" secondAttribute="leading" id="u0e-Ym-LYX"/>
                             <constraint firstItem="iFD-d3-AKS" firstAttribute="height" secondItem="WhK-QL-oNR" secondAttribute="height" id="zi4-jK-AsW"/>
