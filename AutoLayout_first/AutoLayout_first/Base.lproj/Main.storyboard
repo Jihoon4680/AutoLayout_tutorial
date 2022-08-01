@@ -34,8 +34,8 @@
                                     <constraint firstAttribute="width" constant="240" id="rky-hC-8ds"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-d3-AKS" userLabel="PupleView">
-                                <rect key="frame" x="110" y="429" width="240" height="128"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-d3-AKS" userLabel="PupleView">
+                                <rect key="frame" x="188" y="426" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
